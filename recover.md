@@ -23,8 +23,8 @@ To resolve this problem, go through the following steps and it might just save y
 1. In Fiddler, go to File > Capture Traffic if it wasn't already
 1. In Power Automate Desktop, click ↻ Refresh to refresh your flows
 1. In Fiddler, you should see a call, which you should double click to open
-    Host `graph.microsoft.com`  
-    URL  `//v1.0/me/drive/special/approot/children`
+    * Host `graph.microsoft.com`  
+    * URL  `//v1.0/me/drive/special/approot/children`
 1. On the right side, choose the Inspectors tab at the top, and JSON in the viewer below
 1. Within the JSON, there are a bunch of objects listed under 'value', each indicated with '{}' symbols, each of them holding a name property, like name=2f985a45-c75e-4add-b5c3-5ba334cd1f49
 1. Go through the objects until you find the one with the name/UUID of your corrupted file, and within the same object look for a property looking something like cTag=aYzpBNzI1ODQ0NjD2M0FCMDD5ITIzMjQuMjg0, right click and copy-paste it to a temporary location
