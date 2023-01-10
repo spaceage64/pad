@@ -19,10 +19,10 @@ To resolve this problem, I have written some regular expressions to easily ident
 1. Close the flow editor (just to be sure caching will not cause issues)
 1. Reopen your saved copy
 1. For each subflow, run the following regex find and replace commands (Ctrl + H, set search mode to regular expression) in Notepad++
-  * Regex find `\\"ScreenShot\\": \\"(.*?)",\\r\\n(\s+)\\"ElementTypeName\\":`  
-  Replace with `\\"ScreenShot\\": null,\\r\\n($2)\\"ElementTypeName\\":`
-  * Regex find `\\"ScreenshotPath\\": \\"(.*?)\\"\\r\\n`  
-  Replace with `\\"ScreenshotPath\\": null\\r\\n`
+    * Regex find `\\"ScreenShot\\": \\"(.*?)",\\r\\n(\s+)\\"ElementTypeName\\":`  
+    Replace with `\\"ScreenShot\\": null,\\r\\n($2)\\"ElementTypeName\\":`
+    * Regex find `\\"ScreenshotPath\\": \\"(.*?)\\"\\r\\n`  
+    Replace with `\\"ScreenshotPath\\": null\\r\\n`
 1. For all subflows, select all code (Ctrl + A), copy (Ctrl + C), and paste in the Power Automate flow editor (Ctrl + V)
 1. Save your flow
 
