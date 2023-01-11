@@ -1,5 +1,5 @@
 # Recovering Power Automate Desktop flows from OneDrive
-## Quick guide on recovering PAD files that got corrupted by OneDrive
+## Quick guide on recovering disappeared PAD files that got corrupted by OneDrive
 
 Power Automate Desktop stores any flows on OneDrive. Unfortunately, saving flows may occasionally  lead to OneDrive corrupting your files, leaving them unusable in PAD. In fact, the flows will disappear entirely from your overview. Not so great if you've put many hours into perfecting a flow.
 
@@ -38,6 +38,6 @@ To resolve this problem, go through the following steps and it might just save y
 
 Now your corrupted flow should once again be visible.
 
-It has personally saved me a lot of work, as my company vpn seems to occasionally be messing with OneDrive, causing the corruptions. Hopefully, this guide will benefit others in the same way!
+It has personally saved me a lot of work, as my company vpn seems to occasionally be messing with OneDrive, causing the corruptions to occur. Hopefully, this guide will benefit others in the same way!
 
 [^1]: In case you have Windows set to hide file extensions, take extra care to make sure your file name ends with the .meta extension, not .meta.txt. In Notepad, in the Save As dialog, you can do so by selecting All Files in the drop down under the File name input field.
